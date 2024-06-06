@@ -23,6 +23,8 @@ public class ClickAndHoldAction {
 		Actions actions = new Actions(driver);
 		actions.clickAndHold(srcEle).release(targetEle).perform();
 		actions.clickAndHold(srcEle).release(targetEle).perform();//modified
+		actions.clickAndHold(srcEle).release(targetEle).perform();//updated
+		
 
 	}
 
