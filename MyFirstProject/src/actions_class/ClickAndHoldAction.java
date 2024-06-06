@@ -22,6 +22,7 @@ public class ClickAndHoldAction {
 		WebElement targetEle = driver.findElement(By.id("droppable"));
 		Actions actions = new Actions(driver);
 		actions.clickAndHold(srcEle).release(targetEle).perform();
+		actions.clickAndHold(srcEle).release(targetEle).perform();//modified
 
 	}
 
